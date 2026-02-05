@@ -1,0 +1,5 @@
+
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-01-27T16:50:00.029Z"}
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-01-27T17:00:00.008Z"}
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-01-27T17:10:00.006Z"}
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-01-27T17:20:00.005Z"}

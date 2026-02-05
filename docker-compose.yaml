@@ -90,11 +90,13 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_PASSWORD=pass123
+      - POSTGRES_PASSWORD=SecurePostgresPassword2026
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=GitHub-Task
+      - POSTGRES_DB=github_stack_db
+      - POSTGRES_INITDB_ARGS=-c password_encryption=scram-sha-256
     volumes:
       - "./pgdata:/var/lib/postgresql/data2/pgdata"
+    command: ["postgres", "-c", "password_encryption=scram-sha-256"]
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 5s

@@ -1,0 +1,6 @@
+
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-02-04T15:20:00.019Z"}
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-02-04T15:30:00.007Z"}
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-02-04T15:40:00.004Z"}
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-02-04T15:50:00.006Z"}
+ {"event":"email_sent","details":{"payload":"Hello, I am Bob"},"timestamp":"2026-02-04T16:00:00.007Z"}
